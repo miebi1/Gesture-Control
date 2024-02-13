@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+}
+.menu-container {
+    display: flex;
+    width: 300%; /* Set to accommodate all menu items */
+    height: 100vh;
+    transition: transform 0.6s ease; /* Increased transition duration */
+}
+
+.menu-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #53c0c2;
+    color: #fff;
+    font-size: 2em;
+}
+
+.fa-solid {
+    font-size: 5rem;
+    padding-left:20px;
+}
